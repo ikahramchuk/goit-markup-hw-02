@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto;
+  font-family: Roboto; Raleway
   color: #212121;
   background-color: #fff;
 }
@@ -12,6 +12,13 @@ ul {
 }
 .logo {
   color: black;
+}
+.auth-tel {
+  color: #757575;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
 }
 
 /* цвет основного текста #757575 */
