@@ -1,6 +1,13 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+}
+
 body {
   font-family: Roboto;
-  color: #212121;
+  color: var(--primary-text-color);
   background-color: #ffffff;
 }
 ul {
@@ -9,28 +16,28 @@ ul {
 /* header */
 .logo-web,
 .auth-mail {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo {
   color: black;
 }
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .auth .link {
-  color: #757575;
+  color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .auth .link:hover,
 .auth .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* sectione */
 .sectione-title {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 /*  */
 .section-business {
@@ -40,7 +47,7 @@ ul {
   height: 600px;
 }
 p {
-  color: #757575;
+  color: var(--title-text-color);
 }
 
 /* footer */
