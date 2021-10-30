@@ -1,11 +1,12 @@
 body {
-  font-family: Roboto; Raleway
+  font-family: Roboto;
   color: #212121;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 ul {
   list-style: none;
 }
+/* header */
 .logo-web,
 .auth-mail {
   color: #2196f3;
@@ -13,15 +14,38 @@ ul {
 .logo {
   color: black;
 }
-.auth-tel {
+.site-nav .link {
+  color: #212121;
+}
+.auth .link {
   color: #757575;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
 }
+.auth .link:hover,
+.auth .link:focus {
+  color: #2196f3;
+}
+/* sectione */
+.sectione-title {
+  color: #212121;
+}
+/*  */
+.section-business {
+  color: #ffffff;
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+p {
+  color: #757575;
+}
 
-/* цвет основного текста #757575 */
-/* вторичный цвет #212121 */
+/* footer */
+
+/* цвет основного текста #212121 */
+/* вторичный цвет #757575 */
 /* акцент #2196F3 */
 /* вторичный цет фона #F5F4FA; */ ;
