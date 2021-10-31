@@ -32,6 +32,9 @@ a {
 .site-nav .link {
   color: var(--primary-text-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 .auth .link {
   color: var(--title-text-color);
 }
