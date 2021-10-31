@@ -47,12 +47,16 @@ a {
 .sectione-title {
   color: var(--primary-text-color);
 }
-/*  */
+/* business */
 .section-business {
   color: #ffffff;
   background-color: #2f303a;
   width: 1600px;
   height: 600px;
+}
+.section-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
 
 /* advantage */
