@@ -16,10 +16,11 @@ body {
   background-color: #ffffff;
   letter-spacing: 0.03em;
 }
-ul {
+
+/* header */
+.auth {
   list-style: none;
 }
-/* header */
 .accent,
 .auth-mail {
   color: var(--accent-color);
@@ -71,10 +72,12 @@ ul {
   line-height: 1.17;
   text-align: center;
 }
-/* business */
+/* business slogan */
 .section-business {
+  background: #2f303a;
+}
+.slogan {
   color: #ffffff;
-  background-color: #2f303a;
 
   font-weight: 900;
   font-size: 44px;
@@ -83,7 +86,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.section-button {
+.section-business .section-button {
   background-color: var(--accent-color);
   color: #ffffff;
 
@@ -143,6 +146,7 @@ ul {
 .address {
   color: #ffffff;
 
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
