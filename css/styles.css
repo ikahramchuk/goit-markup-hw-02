@@ -1,3 +1,8 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет #757575 */
+/* акцент #2196F3 */
+/* вторичный цет фона #F5F4FA; */
+
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
@@ -7,11 +12,14 @@
 
 body {
   font-family: Roboto;
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
   background-color: #ffffff;
 }
 ul {
   list-style: none;
+}
+a {
+  text-decoration: none;
 }
 /* header */
 .logo-web,
@@ -46,13 +54,36 @@ ul {
   width: 1600px;
   height: 600px;
 }
-p {
-  color: var(--title-text-color);
+
+/* advantage */
+.advantage {
+  color: var(--primary-text-color);
 }
 
 /* footer */
-
-/* цвет основного текста #212121 */
-/* вторичный цвет #757575 */
-/* акцент #2196F3 */
-/* вторичный цет фона #F5F4FA; */ ;
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: #ffffff;
+}
+.address {
+  color: #ffffff;
+}
+.auth .link-address {
+  color: #ffffff;
+}
+.auth .link-address:hover,
+.auth .link-address:focus {
+  color: var(--accent-color);
+}
+/* button */
+.button {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
